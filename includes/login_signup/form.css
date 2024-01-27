@@ -1,0 +1,86 @@
+@import url('../../css/constants.css');
+
+
+.form__section {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form__section-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap:10rem;
+
+}
+
+.form__section-div-form {
+    max-width: 40em; 
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    border-color: green;
+}
+
+
+
+
+
+.form_:title {
+    text-align: center; 
+}
+
+
+
+
+.form__section-div-h {
+    text-align: center;
+    margin: 2rem;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.1);
+}
+
+
+
+input {
+    width: 70%;
+    height: 2rem;
+    padding: 1em;
+
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+
+
+
+form[action="search.php"] {
+    max-width: 30em; 
+}
+
+
+.form-error {
+    color: red;
+    font-weight: bold;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    text-align: center;
+
+  }
+
+.form-success {
+    color: green;
+    font-weight: bold;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    text-align: center;
+  }

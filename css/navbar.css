@@ -1,0 +1,76 @@
+@import url('constants.css');
+
+
+
+
+.navbar{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+
+.navbar__links{
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+
+}
+
+.navbar__links a{
+    color: var(--color-white);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    background-color: var(--color-grey);
+}
+
+.navbar__links a:hover {
+    color: var(--color-greylight);
+}
+
+.navbar__button {
+    background-color: var(--color-reddark);
+
+    border: none;
+    border-radius: 30%;
+    cursor: pointer;
+    display: block;
+
+}
+
+.navbar__button:hover {
+    background-color: rgba(169, 169, 169, 0.3);
+}
+
+
+
+@media screen and (max-width:650px) { 
+
+    .navbar{
+        padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    }
+
+    .navbar__links{
+        justify-content: flex-start;
+        gap:3rem;
+    }
+
+    .navbar__links a{
+        color: var(--color-white);
+        border: 2px solid green;
+        padding: 0.2rem;
+    }
+
+    .navbar__button {
+
+        padding: 1rem 0.5rem;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        display: block;
+    }
+
+}
